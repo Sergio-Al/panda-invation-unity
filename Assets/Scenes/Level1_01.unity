@@ -1669,7 +1669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 146151890759829647, guid: f047b104dab9a7749af98be44dc49c56, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -2.212494
+      value: -2.2124634
       objectReference: {fileID: 0}
     - target: {fileID: 146151890759829647, guid: f047b104dab9a7749af98be44dc49c56, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2061,7 +2061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6481522716510349649, guid: f047b104dab9a7749af98be44dc49c56, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.09999466
+      value: 0.099990845
       objectReference: {fileID: 0}
     - target: {fileID: 6481522716510349649, guid: f047b104dab9a7749af98be44dc49c56, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2976,8 +2976,16 @@ MonoBehaviour:
   losingScreen: {fileID: 125557966}
   winningScreen: {fileID: 1096496596}
   pandaPrefab: {fileID: 14869173098553236, guid: 41cdb4e9d78cb634ea44659f74f6d534, type: 3}
-  numberOfWaves: 2
-  numberOfPandasPerWave: 5
+  wavesPerPanda:
+  - numberOfPandas: 3
+    secondsToWait: 2
+    rewardPerWave: 10
+  - numberOfPandas: 5
+    secondsToWait: 1
+    rewardPerWave: 50
+  - numberOfPandas: 6
+    secondsToWait: 0
+    rewardPerWave: 50
   initialSugar: 253
 --- !u!4 &830833863
 Transform:
@@ -5968,7 +5976,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1686832981}
   m_HandleRect: {fileID: 1686832980}
   m_Direction: 3
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:

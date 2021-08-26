@@ -20,7 +20,7 @@ public class TradeCupcakeTowers_Buying : TradeCupcakeTower
         if (price <= sugarMeter.getSugarAmount())
         {
             // Payment succeds, and the cost is removed from the player's sugar.
-            sugarMeter.changeSugar(price);
+            sugarMeter.changeSugar(price * -1);
             // A new cupcake tower is created
             GameObject newTower = Instantiate(cupcakeTowerPrefab);
             // The new cupcake tower is also assigned as the current selection

@@ -7,6 +7,7 @@ public struct PandaExp
 {
     public int numberOfPandas;
     public int secondsToWait;
+    public int rewardPerWave;
 }
 public class GameManagerScript : MonoBehaviour
 {
@@ -19,13 +20,6 @@ public class GameManagerScript : MonoBehaviour
     public GameObject pandaPrefab;
 
     public PandaExp[] wavesPerPanda;
-    // The number of waves that the player must face this level
-    public int numberOfWaves;
-    // The number of pandas that the player has to  face per wave.
-    // It increase when a wave is won
-    public int numberOfPandasPerWave;
-    // The time that must wait until a new wave arrives.
-    public int secondsToWaveForInitialWave;
     // Initial Sugar amount
     public int initialSugar;
     // Private variable to check if the mouse is hovering an area where
@@ -134,9 +128,7 @@ public class GameManagerScript : MonoBehaviour
             // Let the PandaSpawner coroutine to handle the single wave. When it finishes
             // also the wave is finished, and so this coroutine can continue.
             yield return PandaSpawner(wavesPerPanda[i].numberOfPandas);
-
-            // Increase the number of Pandas that are generated per wave
-            numberOfPandasPerWave += 3;
+            FindObjectOfType<SugarMeterScript>().changeSugar(wavesPerPanda[i].rewardPerWave);
         }
 
         // if the player won all the waves, call the GameOver function in "winning" mode
@@ -163,7 +155,7 @@ public class GameManagerScript : MonoBehaviour
 
         // Once all the Pandas are spawned, wait until all of them are defeated
         // by the player (or a gameover condition ocurred before)
-        yield return new WaitUntil(() => numberOfPandasToDefeat <= 0);
+        yield return new WaitUntil(() => numberOfPandasToDefeat <= 0 && FindObjectsOfType<PandaScript>().Length <= 0);
 
     }
 

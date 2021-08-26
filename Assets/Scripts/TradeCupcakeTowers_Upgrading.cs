@@ -10,7 +10,7 @@ public class TradeCupcakeTowers_Upgrading : TradeCupcakeTower
         if (currentActiveTower.isUpgradable && currentActiveTower.upgradingCost <= sugarMeter.getSugarAmount())
         {
             // The payment is executed and the sugar is removed from the player
-            sugarMeter.changeSugar(currentActiveTower.upgradingCost);
+            sugarMeter.changeSugar(currentActiveTower.upgradingCost * -1);
             // The tower is upgraded
             currentActiveTower.Upgrade();
         }
