@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: 6c3e768f0bfc59e4fbf1a6db66d371bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1800049067777237657
+    second: cupcake_tower_sheet-01_0
+  - first:
+      213: 3461858702362413498
+    second: cupcake_tower_sheet-01_1
+  - first:
+      213: 6655790587060523591
+    second: cupcake_tower_sheet-01_2
+  - first:
+      213: -8509444690121245657
+    second: cupcake_tower_sheet-01_3
+  - first:
+      213: -6579243394822638321
+    second: cupcake_tower_sheet-01_4
+  - first:
+      213: -3836689376191376567
+    second: cupcake_tower_sheet-01_5
+  - first:
+      213: 6979074287519187263
+    second: cupcake_tower_sheet-01_6
+  - first:
+      213: 8657612310231650051
+    second: cupcake_tower_sheet-01_7
+  - first:
+      213: -6805322474513588392
+    second: cupcake_tower_sheet-01_8
+  - first:
+      213: -153984252180864022
+    second: Sprinkles_Cupcake_Tower_0
+  - first:
+      213: -153135961956907088
+    second: Sprinkles_Cupcake_Tower_1
+  - first:
+      213: -4830493455698599750
+    second: Sprinkles_Cupcake_Tower_2
+  - first:
+      213: 5293154634615447075
+    second: ChocolateChip_Cupcake_Tower_0
+  - first:
+      213: -6836015807046716670
+    second: ChocolateChip_Cupcake_Tower_1
+  - first:
+      213: -654038736460623808
+    second: ChocolateChip_Cupcake_Tower_2
+  - first:
+      213: 8958433816351931215
+    second: Lemon_Cupcake_Tower_0
+  - first:
+      213: -4342241664380322078
+    second: Lemon_Cupcake_Tower_1
+  - first:
+      213: 6835698920712962902
+    second: Lemon_Cupcake_Tower_2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprinkles_Cupcake_Tower_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1788.6667
+        width: 702.6667
+        height: 894.3333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae361c37320fcddf0800000000000000
+      internalID: -153984252180864022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkles_Cupcake_Tower_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1788.6667
+        width: 702.6667
+        height: 894.3333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7883967a3ffddf0800000000000000
+      internalID: -153135961956907088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprinkles_Cupcake_Tower_2
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1788.6667
+        width: 702.6667
+        height: 894.3333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab06c3b8bc3a6fcb0800000000000000
+      internalID: -4830493455698599750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateChip_Cupcake_Tower_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 895
+        width: 703
+        height: 894
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e57798810157940800000000000000
+      internalID: 5293154634615447075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateChip_Cupcake_Tower_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 894.6667
+        width: 702.6667
+        height: 894.3333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203760e97d79121a0800000000000000
+      internalID: -6836015807046716670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChocolateChip_Cupcake_Tower_2
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 899
+        width: 703
+        height: 894
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0405be30c336ce6f0800000000000000
+      internalID: -654038736460623808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemon_Cupcake_Tower_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.666687
+        width: 702.6667
+        height: 894.3333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bf0879710c25c70800000000000000
+      internalID: 8958433816351931215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemon_Cupcake_Tower_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 0.666687
+        width: 702.6667
+        height: 894.3333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeb5b166324db3c0800000000000000
+      internalID: -4342241664380322078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lemon_Cupcake_Tower_2
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 0.666687
+        width: 702.6667
+        height: 894.3333
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6530e9883f74dde50800000000000000
+      internalID: 6835698920712962902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
