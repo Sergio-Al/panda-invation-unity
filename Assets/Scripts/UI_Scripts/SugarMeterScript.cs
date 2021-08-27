@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SugarMeterScript : MonoBehaviour
 {
     private Text sugarMeter; // Reference to the Text component (by UnityEngine.UI)
-    private int sugar; //Amount of sugar that player possesses
+    private int sugar = 200; //Amount of sugar that player possesses
     // Start is called before the first frame update
     void Start()
     {

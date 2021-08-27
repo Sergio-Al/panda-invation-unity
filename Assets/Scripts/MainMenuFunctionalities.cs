@@ -5,18 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuFunctionalities : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     // Function that loads the first level
     public void NewGame()
     {

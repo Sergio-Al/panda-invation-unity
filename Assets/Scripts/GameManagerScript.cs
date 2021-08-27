@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public struct PandaExp
@@ -20,6 +21,8 @@ public class GameManagerScript : MonoBehaviour
     public GameObject pandaPrefab;
 
     public PandaExp[] wavesPerPanda;
+    // Sugar Meter GameObject
+    public GameObject sugarMeter;
     // Initial Sugar amount
     public int initialSugar;
     // Private variable to check if the mouse is hovering an area where
@@ -41,7 +44,8 @@ public class GameManagerScript : MonoBehaviour
         spawner = GameObject.Find("SpawningPoint").transform;
 
         // Set the initial sugar amount
-        FindObjectOfType<SugarMeterScript>().changeSugar(initialSugar);
+        // sugarMeter.GetComponent<SugarMeterScript>().changeSugar(initialSugar);
+
 
         StartCoroutine(WavesSpawner());
     }
@@ -93,7 +97,8 @@ public class GameManagerScript : MonoBehaviour
             losingScreen.SetActive(true);
         }
         // Freeze the game time, so to stop in some way the level to be executed
-        Time.timeScale = 0; // this is an interesting funciton to have in account
+        //Time.timeScale = 0; // this is an interesting funciton to have in account
+        StartCoroutine(ReturnToMainMenu());
     }
 
     // Function that decreases the number of Pandas still to defeat every time a Panda dies
@@ -157,6 +162,12 @@ public class GameManagerScript : MonoBehaviour
         // by the player (or a gameover condition ocurred before)
         yield return new WaitUntil(() => numberOfPandasToDefeat <= 0 && FindObjectsOfType<PandaScript>().Length <= 0);
 
+    }
+
+    private IEnumerator ReturnToMainMenu()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(0);
     }
 
 }
